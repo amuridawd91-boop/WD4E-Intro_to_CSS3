@@ -5,6 +5,7 @@ body {
 }
 header{
     background-color: violet;
+    text-align: center;
 }
 nav {
     background-color: lightsalmon;
@@ -12,12 +13,14 @@ nav {
 main{
     background-color: cyan;
     font-size: 30px;
+    text-align: center;
     
 }
 footer {
     background-color: dimgray;
     height: 35px;
     line-height: 30px;
+    text-align: center;
 }
 li{
     display: inline-block;
