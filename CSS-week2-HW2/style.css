@@ -9,8 +9,12 @@ header{
     
 }
 nav {
+    display: inline-block;
     background-color: olivedrab;
-    width: 100%;
+    width: 80%;
+}
+nav img{
+    width: 10%;
 }
 main{
     background-color: lightsalmon;
@@ -24,14 +28,14 @@ footer {
     line-height: 30px;
     text-align: center;
 }
-li{
+/* li{
     display: inline-block;
     width: 30%;
     text-align: center;
     background-color: yellow;
     height: 50px;
     line-height: 50px;
-}
+} */
 h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -39,4 +43,19 @@ h1{
 }
 p {
     line-height: 40px;
+}
+.grid {
+    display:grid;
+    grid-template-columns: 40% 40%;
+    justify-content: baseline;
+    align-items: start;
+    row-gap: 20px;
+}
+.grid img{
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
