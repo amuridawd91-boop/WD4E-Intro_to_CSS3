@@ -1,0 +1,42 @@
+body {
+    background-color: cyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+header{
+    background-color: beige;
+    text-align: center;
+    
+}
+nav {
+    background-color: olivedrab;
+    width: 100%;
+}
+main{
+    background-color: lightsalmon;
+    font-size: 30px;
+    text-align: center;
+    
+}
+footer {
+    background-color: powderblue;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: yellow;
+    height: 50px;
+    line-height: 50px;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+p {
+    line-height: 40px;
+}
