@@ -57,5 +57,15 @@ p {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+       
+}
+.flex img{
+    width:200px;
+}
+img:hover, img:focus{
+    opacity: 1;
+    border: 5px solid blue;
+    border-radius: 20px;
+
 }
